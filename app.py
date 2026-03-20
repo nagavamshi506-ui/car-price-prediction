@@ -11,6 +11,7 @@ with open(model_path,"rb") as f:
     model = pickle.load(f)
 with open(columns_path,"rb") as f:
     X_columns = pickle.load(f)
+    
 st.title("🚗 Car Price Prediction App")
 
 # INPUTS (UI instead of input())
